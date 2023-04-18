@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;/*estolos iniciales*/
+    font-family:verdana;
+}
+#portada{margin: 1.5em;
+width: 50%;/*estilos de imagen principal*/
+height: 80%;
+margin-left: 45%;
+margin-top: -150px;
+}
+
+#entrada{
+    font-size: 90px; /*tipo de fuente para mensaje principal*/
+    padding: 15px; 
+    margin-top: 4%;
+}
+
+
+
+/*menu horizontal*/
+nav{background-color: black;}
+ul{list-style: none;}
+li, a{
+    text-decoration: none;/*removemos los elementos de listas y subrayados*/
+    display:block;
+    /*background-color: grey;
+    padding: 10px;*/
+    color:black;
+}
+header nav ul li{
+    float: left;}
+
+    
+ol{
+    list-style: none;
+}
+
+footer{background-color: black;
+color: aliceblue;
+font-size: 170%;
+text-align: center;}
